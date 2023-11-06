@@ -1,0 +1,25 @@
+{
+    "name": "sintsovamy/collect",
+    "description": "Module for working with arrays",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sintsovamy",
+	    "email": "msintsova18@gmail.com"
+	}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "8.1.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+	},
+	"files": [
+            "src/helpers.php"
+	]
+    }
+}
+
